@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/shed0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="1"
+        android:onClick="onClick"
+        android:text="Shed 0"/>
+    <Button
+        android:id="@+id/shed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shed0"
+        android:tag="2"
+        android:onClick="onClick"
+        android:text="Shed 1"/>
+    <Button
+        android:id="@+id/shed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shed1"
+        android:tag="3"
+        android:onClick="onClick"
+        android:text="Shed 2"/>
+    <Button
+        android:id="@+id/shed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shed2"
+        android:tag="4"
+        android:onClick="onClick"
+        android:text="Shed 3"/>
+
+    <Button
+        android:id="@+id/shed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shed3"
+        android:tag="5"
+        android:onClick="onClick"
+        android:text="Shed 4"/>
+
+</RelativeLayout>
+
